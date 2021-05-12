@@ -1,0 +1,91 @@
+﻿○ What Project should include
+-•- CRUD -- Create; Read;-Not requirment for E- Update; Delete
+-•- Validation
+-•- Authentication
+-•- Krav på Css; funktionsduglig
+• -optional- [CSS] (Bootstrap) (W3 css)
+
+
+○ DOKUMNETATION:
+• db, hur fungerar den, den är typish unikt för detta projektet
+scandir for booklist
+• hur jag söker igenom mitt projekt
+• uidTranslation
+• unika functioner och funktionaliterter
+• generellt upplägg
+• editors name doesnt ad up twice, only get checked in once
+• other books in same serie
+• deletion of books, rrmdir
+• scandir
+
+
+○ TODO:
+-•- Authentication
+-•- -Create, -update, -read, -delete
+-•- Dynamic rende[confirmed, ready to fire!] - ask, str_replace(x,y,z)?
+-•- Dynamic book-page (php-combined html)
+-•- (Dynamic?) Homescreene (php-combined html)
+-•- All books/ clickible titles, foreachloop / Homepage using "scandir" 
+https://www.php.net/manual/en/function.scandir.php to scan
+• favorits, ability to make a book a favorit•
+-•- update single book didn't work
+-•- fix stringReplace to str_replace;
+• check number-typ of pages
+-•- add reviews, then i can crud as earlier and show i know how
+-•- Dynamic userscreen
+-•- Saftey, no js in textbox, 
+-•-only reg users can edit
+
+-○- Boklista -- Miniforum, per bok? // Think simple-mini-MAL for Books
+-▬- Böcker
+-▬- (if time, proves crud in creating books alreadty, don't need double work)-Kommentarer / review
+-▬- Konton 
+[skip]▬ Rating
+
+
+
+▬ Afternote:
+can change method= post to method= get, messes up file system
+
+○ DATABASE:
+
+Json-DB → -	→ BookName ↓ -	→ BookInfo.json
+			   → -	→ BookComments.json
+		
+		→ Users → - 	→ User (ink. Fav? Rev-links, etc?)
+
+
+
+
+		→ UserArray
+
+
+
+/* TODO:
+if (logged){
+
+  require_once myCode.html
+}else{
+  header(location:www.booklist.se/validation/login.php)
+}
+*/
+
+
+//Main map: My-Book-List/
+
+sanitize
+filter_var($str, FILTER_SANITIZE_STRING | FILTER_FLAG_STRIP_LOW);
+filter_var($str, FILTER_SANITIZE_STRING | FILTER_FLAG_STRIP_HIGH);
+FILTER_FLAG_ENCODE_LOW
+FILTER_FLAG_ENCODE_HIGH
+
+FILTER_FLAG_STRIP_LOW
+FILTER_FLAG_STRIP_HIGH
+
+• Classes: https://repl.it/@RichardTE18IT/11-04classes
+• Crud -complete-: https://repl.it/@RichardTE18IT/Crud-appContinue#crud.php
+• User validation: https://repl.it/@RichardTE18IT/OtherBoldMethod11-10#DB/users.json
+• Render(by adding & replacing): https://repl.it/@RichardTE18IT/IdealisticReasonableBinarytree#render.php
+• Get/Set json-data: https://repl.it/@RichardTE18IT/MotherlySurprisedKeygens#data.php
+ and https://repl.it/@RichardTE18IT/LeanGiantProperties#data.php
+• Obj - stdClass handling: https://repl.it/@RichardTE18IT/AbsoluteYouthfulBits#index.php

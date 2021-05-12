@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="homepage.css">
+    <title>BookTitle - MyBookList</title>
+</head>
+
+
+
+<!-- use assoc array, with ['header']->titel etc -->
+
+<body class="gridcontainer">
+
+   
+  <div class="sideL"><!-- emptey --></div>
+
+  <div class="maincontent">
+      <div class="nav">{{navigation}}</div>
+      <div class="header" style="display:flex;">
+         <div style="flex:1;">{{welcome}}</div>
+         <div style="flex:0; min-width:78px;"><!-- <button onclick="location.href='{{}}'">Update Book</button>
+         <button onclick="location.href='{{deletePath}}'">Delete Book</button> --></div>
+      </div>           
+      <div class="contentBox">    
+              <div class="review">
+                <h3> Book libary</h3><hr>
+                {{books}}<br>
+             </div>  
+            
+                         
+              <div class="synopsis">
+                <h3>Latest Discussions</h3><hr>
+                <i>Yu-hue! <br>
+                    Wanna start a formum and discuss a topic? Use reddit instead, this is not implemeted!<br></i> </div>
+             
+         
+      </div>
+      <div class="footer">
+          {{footer}}
+      </div>
+     
+  </div>
+  <div class="sideR"><!-- emptey --></div>
+
+
+</body>
+
+</html>
+</body>
+
+</html>

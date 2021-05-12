@@ -1,0 +1,51 @@
+
+
+<div class="dibbelz">
+{{navigation}}
+    <form action="procede.php" method="post" id="update">
+<hr>
+
+      Book title: {{title}}<br>
+      Book serie: {{serie}}<br>       
+      <input type="hidden" id="title" name="title" value="{{title}}">
+      <input type="hidden" id="serie" name="serie" value="{{serie}}">        
+      Author: <input type="text" id="author" name="author" placeholder="Author" required  value="{{author}}"><br>
+     Release year:  <input type="text" id="release" name="release" placeholder="Release year" value="{{release}}"><br>
+     Pages:  <input type="number" id="pages" name="pages" placeholder="Pages"  value="{{pages}}"><br>
+      <!-- <div style="display:flex; max-width:500px; min-height: 150px; margin-right:100px";> -->
+     Synopsis: <!-- <textarea style="flex:1" id="synopsis" name="synopsis" placeholder="Synopsis; a short summary of the book and what it's about">{{synopsis}}</textarea> -->
+
+     <div style="display:flex; width:100%; min-width:500px; min-height: 150px; ">
+        <textarea style="flex:1" name="synopsis" placeholder="Synopsis; a short summary of the book and what it's about">{{synopsis}}</textarea>
+      </div>
+
+
+      <!-- </div> -->
+       
+        <input type="submit" value="Submit">
+
+<!-- PHP, read json file, use GET-var to get title, serie, copypaste. StringReplace in javascript -->
+    </form>
+    </div>
+
+    <style>
+        #update,
+        .dibbelz
+         {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+.dibbelz{
+  align-items: center;
+}
+input{
+  width: 50%;
+}
+        hr {
+            width: 100%;
+        }
+    </style>
+
+
+

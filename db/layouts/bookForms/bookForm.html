@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Remove head before saving to replit -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2> Add book to database</h2>
+    <form action="procede.php" method="post">
+
+        <input type="text" name="title" placeholder="Title" required><br>
+        <input type="text" name="serie" placeholder="Serie" ><br>
+        <input type="text" name="author" placeholder="Author" required><br>
+          <input type="text" name="release" placeholder="Release year" ><br>
+        <input type="number" name="pages" placeholder="Pages" ><br>
+ 
+      <div style="display:flex; max-width:500px; min-height: 150px; margin-right:100px";>
+        <textarea style="flex:1" name="synopsis" placeholder="Synopsis; a short summary of the book and what it's about"></textarea>
+      </div>
+       
+        <input type="submit" value="Submit">
+        
+
+
+    </form>
+
+</body>
+</html>
