@@ -5,4 +5,4 @@ it includes authorization, CRUD, server and client security, as well as a local 
 This was built as my half-course web server development exam\
 Thus, usage of these is at your own risk!\
 \
-Chers FoxPaw
+Cheers FoxPaw
