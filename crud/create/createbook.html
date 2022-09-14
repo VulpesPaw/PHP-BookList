@@ -1,0 +1,45 @@
+
+
+<div class="dibbelz">
+{{navigation}}
+
+    <form action="procede.php" method="post" id="create">
+<hr>
+<br>
+
+       Title*: <input type="text" name="title" placeholder="Title" required><br>
+        Series: <input type="text" name="serie" placeholder="Serie" ><br>
+       Author*: <input type="text" name="author" placeholder="Author" required><br>
+         Release year: <input type="text" name="release" placeholder="Release year" ><br>
+       Pages: <input type="number" name="pages" placeholder="Pages" ><br>
+ Synopsis:
+      <div style="display:flex; width:100%; min-width:500px; min-height: 150px; ">
+        <textarea style="flex:1" name="synopsis" placeholder="Synopsis; a short summary of the book and what it's about"></textarea>
+      </div>
+       
+        <input type="submit" value="Submit">
+        
+
+
+    </form>
+
+</div>
+
+    <style>
+        #create,
+        .dibbelz
+         {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+.dibbelz{
+  align-items: center;
+}
+input{
+  width: 50%;
+}
+        hr {
+            width: 100%;
+        }
+    </style>

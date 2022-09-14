@@ -1,0 +1,28 @@
+{
+    "title": "Kenon",
+    "serie": "AchiveStorms",
+    "author": "Johansson Richard",
+    "release": "2020",
+    "pages": "42",
+    "synopsis": "This is an summartuatusisadsas dasd.asdasda",
+    "reviews": [
+        {
+            "user": "nisse",
+            "uid": "156das45das68das465d",
+            "review": "this is great"
+        },
+        {
+            "user": "bosse",
+            "uid": "156das45das68das465d",
+            "review": "this is amazing"
+        },
+        {
+            "user": "Keanu Reeves",
+            "uid": "156das45das68das465d",
+            "review": "*Points* You are breathtaking"
+        }
+    ],
+    "edit": [
+        "55cf4bd9e3f04b9d8611ea7d519fa3c7"
+    ]
+}

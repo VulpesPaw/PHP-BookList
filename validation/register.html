@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+	<title>Register</title>
+</head>
+
+<body>
+	<form action="registerVal.php" method="post" id="formRegister">
+
+	<h2>Register to My Book List</h2>
+	<hr>
+	Username:	<input type="text" name="username" placeholder="User name">
+        Email: <input type="email" name="email" placeholder="email@service.com">
+        Password: <input type="password" name="password" placeholder="password" minlength="8">
+       
+       <!--  <input type="password" name="password2" placeholder="confirm password"> -->
+        <input type="submit" value="Register">        
+        
+
+    </form>  
+    <br>or<br>
+     <button onclick="location.href='login.php'">To login</button>
+   
+  <script>
+function sendTo(url){
+  location.href = url;
+}
+    </script>
+
+ <style>
+        #formRegister,        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        hr {
+            width: 100%;
+        }
+    </style>
+    <!--!! DELETE LATER: -->

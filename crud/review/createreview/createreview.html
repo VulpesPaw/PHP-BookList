@@ -1,0 +1,37 @@
+
+<!-- May not implement, bc time is limited -->
+<div class="dibbelz">
+{{navigation}}
+ <form action="procede.php" method="post" id="review">
+   
+   <hr>
+   Review:<br>
+        <textarea name="review" cols="auto" rows="auto" maxlength="1000" style="width:45vw; min-height:15vh;"></textarea><br>
+   <input type="hidden" name="title" value="{{title}}">
+   <input type="hidden" name="serie" value="{{serie}}">
+        <input type="submit" value="Add review">
+    </form> 
+<!-- 
+    <h3><i>Standard accounts </i>are not able to create rewviews.<br>
+     If you want to post reviews, make sure you have a premium account.</h3>
+
+      -->
+</div>
+    <style>
+        #review,
+        .dibbelz
+         {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+.dibbelz{
+  align-items: center;
+}
+input{
+  width: 50%;
+}
+        hr {
+            width: 100%;
+        }
+    </style>
