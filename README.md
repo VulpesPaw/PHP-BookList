@@ -26,6 +26,7 @@ Exam requirements:
 
 - Authorization
 
+- Data Storage as individual .json-files
 
 
 ## Development
@@ -42,7 +43,7 @@ The project includes but is not limited to the following functionalities:
 
 - Authentication and Authorization utilizing PHP standard ``password_hash()``  and server `$_SESSION[]` functionalities
 
--  Create, Read, Update, and Deletion of items following different levels of Authorization
+- Create, Read, Update, and Deletion of items following different levels of Authorization
 
 - Server-side page rendering with different components
 
